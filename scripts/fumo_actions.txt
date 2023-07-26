@@ -1,0 +1,519 @@
+module Base
+{
+	recipe squish da fumo
+	{
+		destroy FUMOTH_power,
+       		Time:10000,
+		Result:FUMOTH_power=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_power,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+	recipe give donations to raymoo
+	{
+		destroy FUMOTH_reimu,
+		destroy Money,
+       		Time:100,
+		Result:FUMOTH_reimu=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_reimu,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished1,
+	}
+	recipe squish raymo
+	{
+		destroy FUMOTH_reimu,
+       		Time:10000,
+		Result:FUMOTH_reimu=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_reimu,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+	recipe master spark le fumo
+	{
+		destroy FUMOTH_marisa,
+		destroy MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
+       		Time:100,
+		Result:FUMOTH_marisa=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_marisa,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished1,
+	}
+	recipe squish marisa
+	{
+		destroy FUMOTH_marisa,
+       		Time:10000,
+		Result:FUMOTH_marisa=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_marisa,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+	recipe squish da yuyuk
+	{
+		destroy FUMOTH_yuyuko,
+       		Time:10000,
+		Result:FUMOTH_yuyuko=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_yuyuko,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+	recipe feed yuyuko
+	{
+		destroy FUMOTH_yuyuko,
+		destroy Cherry/MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7/Steak/Cabbage/FishFried/SushiFish/FishFillet/Catfish/Bass/Perch/Crappie/Panfish/Pike/Trout/BaitFish/Wine/Wine2,
+       		Time:100,
+		Result:FUMOTH_yuyuko=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_yuyuko,
+		Sound:OpenCannedFood,
+		Category:Entertainment,
+		OnCreate:squished1,
+	}
+	recipe waste a suika
+	{
+		destroy FUMOTH_suika,
+		destroy BeerCan/BeerBottle/Wine/Wine2/WhiskeyFull,
+       		Time:100,
+		Result:FUMOTH_suika=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_suika,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished1,
+	}	
+	recipe squish da suika
+	{
+		destroy FUMOTH_suika,
+       		Time:10000,
+		Result:FUMOTH_suika=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_suika,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+	recipe squish yuuka (don't?)
+	{
+		destroy FUMOTH_yuuka,
+       		Time:15,
+		Result:FUMOTH_yuuka=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_yuuka,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished2,
+	}
+	recipe squish patchuli
+	{
+		destroy FUMOTH_patchuli,
+       		Time:10000,
+		Result:FUMOTH_patchuli=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_patchuli,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+	recipe borrow back patchuli's books
+	{
+		destroy FUMOTH_patchuli,
+		destroy Book,
+       		Time:100,
+		Result:FUMOTH_patchuli=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_patchuli,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished1,
+	}
+	recipe squish yukari (don't?)
+	{
+		destroy FUMOTH_yukari,
+       		Time:15,
+		Result:FUMOTH_yukari=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_yukari,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished2,
+	}
+	recipe squish okuu
+	{
+		destroy FUMOTH_okuu,
+       		Time:10000,
+		Result:FUMOTH_okuu=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_okuu,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+	recipe pat okuu
+	{
+		destroy FUMOTH_okuu,
+       		Time:15,
+		Result:FUMOTH_okuu=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_okuu,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:pat,
+	}
+
+recipe squish aya
+	{
+		destroy FUMOTH_aya,
+       		Time:10000,
+		Result:FUMOTH_aya=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_aya,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish alice
+	{
+		destroy FUMOTH_alice,
+       		Time:10000,
+		Result:FUMOTH_alice=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_alice,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+		recipe squish hatate
+	{
+		destroy FUMOTH_hatate,
+       		Time:10000,
+		Result:FUMOTH_hatate=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_hatate,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish sakuya
+	{
+		destroy FUMOTH_sakuya,
+       		Time:10000,
+		Result:FUMOTH_sakuya=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_sakuya,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish koishi
+	{
+		destroy FUMOTH_koishi,
+       		Time:10000,
+		Result:FUMOTH_koishi=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_koishi,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish satori
+	{
+		destroy FUMOTH_satori,
+       		Time:10000,
+		Result:FUMOTH_satori=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_satori,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish rumia
+	{
+		destroy FUMOTH_rumia,
+       		Time:10000,
+		Result:FUMOTH_rumia=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_rumia,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe troll rumia
+	{
+		destroy FUMOTH_rumia,
+       		destroy Cabbage,
+		Time:100,
+		Result:FUMOTH_rumia=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_rumia,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished2,
+	}
+
+	recipe feed rumia
+	{
+		destroy FUMOTH_rumia,
+       		destroy Steak,
+		Time:100,
+		Result:FUMOTH_rumia=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_rumia,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished1,
+	}
+
+	recipe squish youmu
+	{
+		destroy FUMOTH_youmu,
+       		Time:10000,
+		Result:FUMOTH_youmu=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_youmu,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish kasen
+	{
+		destroy FUMOTH_kasen,
+       		Time:10000,
+		Result:FUMOTH_kasen=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_kasen,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish momjimi
+	{
+		destroy FUMOTH_momjimi,
+       		Time:10000,
+		Result:FUMOTH_momjimi=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_momjimi,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe pat momjimi
+	{
+		destroy FUMOTH_momjimi,
+       		Time:10,
+		Result:FUMOTH_momjimi=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_momjimi,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:pat,
+	}
+
+	recipe feed momjimi
+	{
+		destroy FUMOTH_momjimi,
+       		destroy Steak,
+		Time:100,
+		Result:FUMOTH_momjimi=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_momjimi,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished1,
+	}
+
+	recipe squish kageru
+	{
+		destroy FUMOTH_kageru,
+       		Time:10000,
+		Result:FUMOTH_kageru=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_kageru,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe pat kageru
+	{
+		destroy FUMOTH_kageru,
+       		Time:10,
+		Result:FUMOTH_kageru=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_kageru,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:pat,
+	}
+
+	recipe feed kageru
+	{
+		destroy FUMOTH_kageru,
+		destroy Steak,
+       		Time:100,
+		Result:FUMOTH_kageru=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_kageru,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished1,
+	}
+
+	recipe squish tsukasa
+	{
+		destroy FUMOTH_tsukasa,
+       		Time:10000,
+		Result:FUMOTH_tsukasa=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_tsukasa,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish reisen
+	{
+		destroy FUMOTH_reisen,
+       	Time:10000,
+		Result:FUMOTH_reisen=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_reisen,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish flandere
+	{
+		destroy FUMOTH_flandere,
+       	Time:10000,
+		Result:FUMOTH_flandere=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_flandere,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish remilia
+	{
+		destroy FUMOTH_remilia,
+       	Time:10000,
+		Result:FUMOTH_remilia=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_remilia,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+	recipe give "blood"
+	{
+		destroy FUMOTH_remilia,
+		destroy Wine1/Wine2, 
+       	Time:100,
+		Result:FUMOTH_remilia=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_remilia,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished1,
+	}
+
+	recipe squish koakuma
+	{
+		destroy FUMOTH_koakuma,
+    	Time:10000,
+		Result:FUMOTH_koakuma=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_koakuma,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish dayousei
+	{
+		destroy FUMOTH_dayousei,
+    	Time:10000,
+		Result:FUMOTH_dayousei=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_dayousei,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish meiling
+	{
+		destroy FUMOTH_meiling,
+       	Time:10000,
+		Result:FUMOTH_meiling=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_meiling,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+
+	recipe squish cirno
+	{
+		destroy FUMOTH_cirno,
+      	 	Time:10000,
+		Result:FUMOTH_cirno=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_cirno,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe squish kogasa
+	{
+		destroy FUMOTH_kogasa,
+      	 	Time:10000,
+		Result:FUMOTH_kogasa=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_kogasa,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe get spooked
+	{
+		destroy FUMOTH_kogasa,
+      	 	Time:10,
+		Result:FUMOTH_kogasa=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_kogasa,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:pat,
+	}
+
+	recipe squish nitori
+	{
+		destroy FUMOTH_nitori,
+      	 	Time:10000,
+		Result:FUMOTH_nitori=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_nitori,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe feed nitori
+	{
+		destroy FUMOTH_nitori,
+		destroy Pickles,
+      	 	Time:100,
+		Result:FUMOTH_nitori=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_nitori,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished1,
+	}
+
+	recipe squish nazrin
+	{
+		destroy FUMOTH_nazrin,
+      	 	Time:10000,
+		Result:FUMOTH_nazrin=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_nazrin,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished,
+	}
+
+	recipe feed nazrin
+	{
+		destroy FUMOTH_nazrin,
+		destroy GrilledCheese/Cheese,
+      	 	Time:100,
+		Result:FUMOTH_nazrin=1,
+		OnCreate:Recipe.OnCreate.OpenFUMOTH_nazrin,
+		Sound:PutItemInBag,
+		Category:Entertainment,
+		OnCreate:squished1,
+	}
+
+
+}

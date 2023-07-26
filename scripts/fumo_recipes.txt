@@ -1,0 +1,444 @@
+module FUMOTH
+{
+    recipe Make power fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	Steak=5,
+	HandScythe,
+	NeedToBeLearn:true,
+        Result:FUMOTH_power,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+	
+    }
+    recipe Make reimu fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	TreeBranch,
+        Result:FUMOTH_reimu,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make marisa fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	NeedToBeLearn:true,
+	keep Needle,
+	MushroomGeneric1/MushroomGeneric2/MushroomGeneric3/MushroomGeneric4/MushroomGeneric5/MushroomGeneric6/MushroomGeneric7,
+        Result:FUMOTH_marisa,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make yuyuko fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	Cherry=4,
+	keep Needle,
+	NeedToBeLearn:true,
+        Result:FUMOTH_yuyuko,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make suika fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	NeedToBeLearn:true,
+	BeerCan/BeerBottle/Wine/Wine2/WhiskeyFull,
+        Result:FUMOTH_suika,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make yuuka fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	SunflowerSeeds,
+	NeedToBeLearn:true,
+        Result:FUMOTH_yuuka,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make patchuli fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	Book,
+	NeedToBeLearn:true,
+        Result:FUMOTH_patchuli,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make yukari fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	NeedToBeLearn:true,
+	UmbrellaWhite/Tie_BowTieFull/Tie_BowTieWorn,
+        Result:FUMOTH_yukari,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make okuu fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	PipeBomb,
+	NeedToBeLearn:true,
+        Result:FUMOTH_okuu,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make cirno fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	Icecream/IcecreamMelted,
+        Result:FUMOTH_cirno,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make aya fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	NeedToBeLearn:true,
+	Magazine/HottieZ/TVMagazine,
+        Result:FUMOTH_aya,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make alice fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	Doll=2,
+	NeedToBeLearn:true,
+        Result:FUMOTH_alice,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make hatate fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	Newspaper,
+	NeedToBeLearn:true,
+        Result:FUMOTH_hatate,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make sakuya fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	keep Needle,
+	NeedToBeLearn:true,
+	HuntingKnife/FlintKnife/KitchenKnife,
+        Result:FUMOTH_sakuya,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make koishi fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	Shrimp/Stone,
+	keep Needle,
+	NeedToBeLearn:true,
+        Result:FUMOTH_koishi,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make satori fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	Glasses_Reading,
+	keep Needle,
+	NeedToBeLearn:true,
+        Result:FUMOTH_satori,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make rumia fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	Steak/Cabbage=2,
+	keep Needle,
+	NeedToBeLearn:true,
+        Result:FUMOTH_rumia,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make youmu fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	Katana/HandScythe,
+	keep Needle,
+	NeedToBeLearn:true,
+        Result:FUMOTH_youmu,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make reisen fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	NeedToBeLearn:true,
+	Pistol/Pistol12/Pistol13/Revolver/Revolver_Long/Revolver_Short/AssaultRifle/AssaultRifle2/Suit_Jacket,
+	keep Needle,
+        Result:FUMOTH_reisen,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make kasen fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	BeerCan/BeerBottle/Wine/Wine2/WhiskeyFull,
+	Bandage,
+	keep Needle,
+        Result:FUMOTH_kasen,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+	NeedToBeLearn:true,
+    }
+
+    recipe Make momjimi fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	SheetMetal,
+	keep Needle,
+        Result:FUMOTH_momjimi,
+	NeedToBeLearn:true,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make kageru fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	FishFried/SushiFish/FishFillet/Catfish/Bass/Perch/Crappie/Panfish/Pike/Trout/BaitFish,
+	keep Needle,
+	NeedToBeLearn:true,
+        Result:FUMOTH_kageru,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make Tsukasa fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	Money,
+	keep Needle,
+	NeedToBeLearn:true,
+        Result:FUMOTH_tsukasa,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make Flandere fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	Pancakes/Waffles/Cupcake/Cake,
+	NeedToBeLearn:true,
+	keep Needle,
+        Result:FUMOTH_flandere,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make Remilia fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	NeedToBeLearn:true,
+	Necklace_GoldRuby/item Necklace_SilverCrucifix/Necklace_Crucifix/Earring_Stone_Ruby,
+	keep Needle,
+        Result:FUMOTH_remilia,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make Koakuma fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	Book,
+	NeedToBeLearn:true,
+	Molotov/PipeBomb/SmokeBomb/FlameTrap/Aerosolbomb,
+	keep Needle,
+        Result:FUMOTH_koakuma,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make dayousei fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	NeedToBeLearn:true,
+	Molotov/PipeBomb/SmokeBomb/FlameTrap/Aerosolbomb,
+	keep Needle,
+        Result:FUMOTH_dayousei,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+    recipe Make meiling fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	NeedToBeLearn:true,
+	Hat_Army/Hat_Beret/Hat_BeretArmy,
+	NeedToBeLearn:true,
+	keep Needle,
+        Result:FUMOTH_meiling,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+
+    recipe Make kogasa fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	NeedToBeLearn:true,
+	RippedSheets=6,
+	Umbrella,
+	keep Needle,
+        Result:FUMOTH_kogasa,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+
+    recipe Make nitori fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	Pickles/Wrench/PipeWrench,
+	NeedToBeLearn:true,
+	keep Needle,
+        Result:FUMOTH_nitori,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+
+    recipe Make nazrin fumo
+    {
+        Thread=3,
+	Sheet=2,
+	Glue=2,
+	RippedSheets=6,
+	DeadMouse/DeadRat/Cheese,
+	NeedToBeLearn:true,
+	keep Needle,
+        Result:FUMOTH_nazrin,
+	OnGiveXP:GiveTailoring80,
+        Time:1000,
+        Category:fumo,
+    }
+}

@@ -1,0 +1,43 @@
+module base
+{
+    imports
+    {
+        Base
+    }	
+    Tooltip_EN = {
+	-- Item tooltip
+	Tooltip_item_fumoth0_power = "unoffical yet produced, very rare power fumo",
+	Tooltip_item_fumoth1 = "Lazy youkai exterminator",
+	Tooltip_item_fumoth2 = "Better hide your books",
+	Tooltip_item_fumoth3 = "gluton ghost",
+	Tooltip_item_fumoth4 = "We are japanise goblin",
+	Tooltip_item_fumoth5 = "rember happy day",
+	Tooltip_item_fumoth6 = "full of knowlage",
+	Tooltip_item_fumoth7 = "gap hag",
+	Tooltip_item_fumoth8 = "onyu, atomic bird",
+	Tooltip_item_fumoth9 = "The funky (9)",
+	Tooltip_item_fumoth10 = "Annoying news crow",
+	Tooltip_item_fumoth11 = "pupetmaker, don't steal her precious thing",
+	Tooltip_item_fumoth12 = "less anoying, wise news crow",
+	Tooltip_item_fumoth13 = "Perfect and elegant, time manipulating maid",
+	Tooltip_item_fumoth14 = "Don't look behind you",
+	Tooltip_item_fumoth15 = "smug mindreader",
+	Tooltip_item_fumoth16 = "scared of darkness?",
+	Tooltip_item_fumoth17 = "A garntender foe of gluton ghost",
+	Tooltip_item_fumoth18 = "Lunatic bnuuny",
+	Tooltip_item_fumoth19 = "horned? but definietly a hermit",
+	Tooltip_item_fumoth20 = "Awwooo",
+	Tooltip_item_fumoth21 = "'cat girl'",
+	Tooltip_item_fumoth22 = "a tax fraud fox",
+	Tooltip_item_fumoth23 = "Flan, a dessert",
+	Tooltip_item_fumoth24 = "Scarlet mistress",
+	Tooltip_item_fumoth25 = "Little devil",
+	Tooltip_item_fumoth26 = "free bomb",
+	Tooltip_item_fumoth27 = "sleepy gatekeeper",
+	Tooltip_item_fumoth28 = "BOO!",
+	Tooltip_item_fumoth29 = "engienier gaming",
+	Tooltip_item_fumoth30 = "cheesed rat",
+	Tooltip_item_fumoth31 = " ",
+	Tooltip_item_fumoth31 = " ",
+    }
+}

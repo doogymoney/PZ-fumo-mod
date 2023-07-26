@@ -1,0 +1,145 @@
+module FUMOTH
+{ 
+   item hermit_vol1
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+	DisplayCategory = Literature,
+        DisplayName	=	Wild and horned hermit vol.1 ,
+        Icon	=	FUMOTH_magazine_hermit1,
+        TeachedRecipes  =   Make marisa fumo;Make kasen fumo;Make suika fumo;Make yuuka fumo;Make rumia fumo,
+        ReplaceOnUse    =   hermit_vol1,
+        BoredomChange	=	-10,
+        WorldStaticModel = MagazineHermitVol1Ground,
+    }
+
+model MagazineHermitVol1Ground
+    {
+        mesh = WorldItems/Magazine_fumo,
+	texture = WorldItems/hermit_vol1,
+        scale = 0.4,
+    }
+
+   item hermit_vol2
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+	DisplayCategory = Literature,
+        DisplayName	=	Wild and horned hermit vol.2 ,
+        Icon	=	FUMOTH_magazine_hermit2,
+        TeachedRecipes  =   Make yuyuko fumo;Make sakuya fumo;Make koishi fumo;Make satori fumo;Make youmu fumo,
+        ReplaceOnUse    =   hermit_vol2,
+        BoredomChange	=	-10,
+        WorldStaticModel = MagazineHermitVol2Ground,
+    }
+
+model MagazineHermitVol2Ground
+    {
+        mesh = WorldItems/Magazine_fumo,
+	texture = WorldItems/hermit_vol2,
+        scale = 0.4,
+    }
+
+   item hermit_vol3
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+	DisplayCategory = Literature,
+        DisplayName	=	Wild and horned hermit vol.3 ,
+        Icon	=	FUMOTH_magazine_hermit3,
+        TeachedRecipes  =   Make yukari fumo;Make patchuli fumo;Make okuu fumo;Make aya fumo;Make alice fumo;Make hatate fumo,
+        ReplaceOnUse    =   hermit_vol3,
+        BoredomChange	=	-10,
+        WorldStaticModel = MagazineHermitVol3Ground,
+    }
+
+model MagazineHermitVol3Ground
+    {
+        mesh = WorldItems/Magazine_fumo,
+	texture = WorldItems/hermit_vol3,
+        scale = 0.4,
+    }
+
+
+   item hermit_vol4
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+	DisplayCategory = Literature,
+        DisplayName	=	Wild and horned hermit vol.4 ,
+        Icon	=	FUMOTH_magazine_hermit4,
+        TeachedRecipes  =   Make reisen fumo;Make momjimi fumo;Make kageru fumo;Make Tsukasa fumo;Make Flandere fumo,
+        ReplaceOnUse    =   hermit_vol4,
+        BoredomChange	=	-10,
+        WorldStaticModel = MagazineHermitVol4Ground,
+    }
+
+model MagazineHermitVol4Ground
+    {
+        mesh = WorldItems/Magazine_fumo,
+	texture = WorldItems/hermit_vol4,
+        scale = 0.4,
+    }
+
+
+   item hermit_vol5
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+	DisplayCategory = Literature,
+        DisplayName	=	Wild and horned hermit vol.5 ,
+        Icon	=	FUMOTH_magazine_hermit5,
+        TeachedRecipes  =   Make Remilia fumo;Make Koakuma fumo;Make dayousei fumo;Make meiling fumo,
+        ReplaceOnUse    =   hermit_vol5,
+        BoredomChange	=	-10,
+        WorldStaticModel = MagazineHermitVol5Ground,
+    }
+
+model MagazineHermitVol5Ground
+    {
+        mesh = WorldItems/Magazine_fumo,
+	texture = WorldItems/hermit_vol6,
+        scale = 0.4,
+    }
+
+
+   item hermit_vol6
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+	DisplayCategory = Literature,
+        DisplayName	=	Wild and horned hermit vol.6 ,
+        Icon	=	FUMOTH_magazine_hermit6,
+        TeachedRecipes  =   Make kogasa fumo;Make nitori fumo;Make nazrin fumo,
+        ReplaceOnUse    =   hermit_vol6,
+        BoredomChange	=	-10,
+        WorldStaticModel = MagazineHermitVol6Ground,
+    }
+
+model MagazineHermitVol6Ground
+    {
+        mesh = WorldItems/Magazine_fumo,
+	texture = WorldItems/hermit_vol6,
+        scale = 0.4,
+    }
+
+   item chainsawman
+    {
+        Weight	=	0.1,
+        Type	=	Literature,
+	DisplayCategory = Literature,
+        DisplayName	=	Chainsawman,
+        Icon	=	FUMOTH_magazine_chainsawman,
+        TeachedRecipes  =   Make power fumo,
+        ReplaceOnUse    =   chainsawman,
+        BoredomChange	=	-10,
+        WorldStaticModel = MagazineCSMGround,
+    }
+
+model MagazineCSMGround
+    {
+        mesh = WorldItems/Magazine_fumo,
+	texture = WorldItems/chainsawman1,
+        scale = 0.4,
+    }
+}

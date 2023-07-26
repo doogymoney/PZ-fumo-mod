@@ -1,0 +1,627 @@
+module FUMOTH
+{
+ item FUMOTH_power
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Power fumo,
+        Icon            =    FUMOTH_fumo_power,
+	Packaged = TRUE,
+        WorldStaticModel =   FUMOTH_power,
+        Tooltip         = Tooltip_item_fumoth0_power,
+    }
+	model FUMOTH_power
+	{
+		mesh = FUMOTH_powercsm_low,
+        	texture = FUMOTH_powercsm_fumo,
+        	scale = 0.004,
+	}
+
+ item FUMOTH_reimu
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Reimu fumo,
+        Icon            =    FUMOTH_fumo_reimu,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_reimu,
+        Tooltip         = Tooltip_item_fumoth1,
+    }
+
+	model FUMOTH_reimu
+	{
+		mesh = FUMOTH_reimu_low,
+        	texture = FUMOTH_reimu_fumo,
+        	scale = 0.004,
+	}
+	
+
+ item FUMOTH_marisa
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Marisa fumo,
+        Icon            =    FUMOTH_fumo_marisa,
+	Packaged = TRUE,
+	WorldStaticModel = FUMOTH_marisa,
+        Tooltip         = Tooltip_item_fumoth2,
+    }
+
+	model FUMOTH_marisa
+	{
+		mesh = FUMOTH_marisa_low,
+        	texture = FUMOTH_marisa_fumo,
+        	scale = 0.004,
+	}
+	
+
+ item FUMOTH_yuyuko
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Yuyuko fumo,
+        Icon            =    FUMOTH_fumo_yuyuko,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_yuyuko,
+        Tooltip         = Tooltip_item_fumoth3,
+    }
+
+	model FUMOTH_yuyuko
+	{
+		mesh = FUMOTH_yuyuko_low,
+        	texture = FUMOTH_yuyuko_fumo,
+        	scale = 0.004,
+	}
+
+
+item FUMOTH_suika
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Suika fumo,
+        Icon            =    FUMOTH_fumo_suika,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_suika,
+        Tooltip         = Tooltip_item_fumoth4,
+    }
+
+	model FUMOTH_suika
+	{
+		mesh = FUMOTH_suika_low,
+        	texture = FUMOTH_suika_fumo,
+        	scale = 0.004,
+	}
+	
+
+ item FUMOTH_yuuka
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Yuuka fumo,
+        Icon            =    FUMOTH_fumo_yuuka,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_yuuka,
+        Tooltip         = Tooltip_item_fumoth5,
+    }
+
+	model FUMOTH_yuuka
+	{
+		mesh = FUMOTH_default_bald_low,
+        	texture = FUMOTH_yuuka_fumo,
+        	scale = 0.004,
+	}
+
+ item FUMOTH_patchuli
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Patchuli fumo,
+        Icon            =    FUMOTH_fumo_patchuli,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_patchuli,
+        Tooltip         = Tooltip_item_fumoth6,
+    }
+
+	model  FUMOTH_patchuli
+	{
+		mesh = FUMOTH_patchuli_low,
+        	texture = FUMOTH_patchuli_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_yukari
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Yukari fumo,
+        Icon            =    FUMOTH_fumo_yukari,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_yukari,
+        Tooltip         = Tooltip_item_fumoth7,
+    }
+
+	model  FUMOTH_yukari
+	{
+		mesh = FUMOTH_yukari_low,
+        	texture = FUMOTH_yukari_fumo,
+        	scale = 0.004,
+	}
+
+
+item FUMOTH_okuu
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Utusho fumo,
+        Icon            =    FUMOTH_fumo_okuu,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_okuu,
+        Tooltip         = Tooltip_item_fumoth8,
+    }
+
+	model  FUMOTH_okuu
+	{
+		mesh = FUMOTH_okuu_low,
+        	texture = FUMOTH_okuu_fumo,
+        	scale = 0.004,
+	}
+
+
+item FUMOTH_cirno
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Cirno fumo,
+        Icon            =    FUMOTH_fumo_cirno,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_cirno,
+        Tooltip         = Tooltip_item_fumoth9,
+    }
+
+	model  FUMOTH_cirno
+	{
+		mesh = FUMOTH_default_cocard_low,
+        	texture = FUMOTH_cirno_fumo,
+        	scale = 0.004,
+	}
+
+
+item FUMOTH_aya
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Aya fumo,
+        Icon            =    FUMOTH_fumo_aya,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_aya,
+        Tooltip         = Tooltip_item_fumoth10,
+    }
+
+	model  FUMOTH_aya
+	{
+		mesh = FUMOTH_aya_low,
+        	texture = FUMOTH_aya_fumo,
+        	scale = 0.004,
+	}
+
+
+item FUMOTH_alice
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Alice fumo,
+        Icon            =    FUMOTH_fumo_alice,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_alice,
+        Tooltip         = Tooltip_item_fumoth11,
+    }
+
+	model  FUMOTH_alice
+	{
+		mesh = FUMOTH_alice_low,
+        	texture = FUMOTH_alice_fumo,
+        	scale = 0.004,
+	}
+
+
+
+item FUMOTH_hatate
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Hatate fumo,
+        Icon            =    FUMOTH_fumo_hatate,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_hatate,
+        Tooltip         = Tooltip_item_fumoth12,
+    }
+
+	model  FUMOTH_hatate
+	{
+		mesh = FUMOTH_hatate_low,
+        	texture = FUMOTH_hatate_fumo,
+        	scale = 0.004,
+	}
+
+
+item FUMOTH_sakuya
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Sakuya fumo,
+        Icon            =    FUMOTH_fumo_sakuya,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_sakuya,
+        Tooltip         = Tooltip_item_fumoth13,
+    }
+
+	model  FUMOTH_sakuya
+	{
+		mesh = FUMOTH_sakuya_low,
+        	texture = FUMOTH_sakuya_fumo,
+        	scale = 0.004,
+	}
+	
+
+item FUMOTH_koishi
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Koishi fumo,
+        Icon            =    FUMOTH_fumo_koishi,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_koishi,
+        Tooltip         = Tooltip_item_fumoth14,
+    }
+
+	model  FUMOTH_koishi
+	{
+		mesh = FUMOTH_koishi_low,
+        	texture = FUMOTH_koishi_fumo,
+        	scale = 0.004,
+	}
+
+
+
+item FUMOTH_satori
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Satori fumo,
+        Icon            =    FUMOTH_fumo_satori,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_satori,
+        Tooltip         = Tooltip_item_fumoth15,
+    }
+
+	model  FUMOTH_satori
+	{
+		mesh = FUMOTH_satori_low,
+        	texture = FUMOTH_satori_fumo,
+        	scale = 0.004,
+	}
+
+
+item FUMOTH_rumia
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Rumia fumo,
+        Icon            =    FUMOTH_fumo_rumia,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_rumia,
+        Tooltip         = Tooltip_item_fumoth16,
+    }
+
+	model  FUMOTH_rumia
+	{
+		mesh = FUMOTH_rumia_low,
+        	texture = FUMOTH_rumia_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_youmu
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Youmu fumo,
+        Icon            =    FUMOTH_fumo_youmu,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_youmu,
+        Tooltip         = Tooltip_item_fumoth17,
+    }
+
+	model  FUMOTH_youmu
+	{
+		mesh = FUMOTH_youmu_low,
+        	texture = FUMOTH_youmu_fumo,
+        	scale = 0.004,
+	}
+
+
+
+item FUMOTH_reisen
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Reisen fumo,
+        Icon            =    FUMOTH_fumo_reisen,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_reisen,
+        Tooltip         = Tooltip_item_fumoth18,
+    }
+
+	model  FUMOTH_reisen
+	{
+		mesh = FUMOTH_reisen_low,
+        	texture = FUMOTH_reisen_fumo,
+        	scale = 0.004,
+	}
+
+
+item FUMOTH_kasen
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Kasen fumo,
+        Icon            =    FUMOTH_fumo_kasen,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_kasen,
+        Tooltip         = Tooltip_item_fumoth19,
+    }
+
+	model  FUMOTH_kasen
+	{
+		mesh = FUMOTH_kasen_low,
+        	texture = FUMOTH_kasen_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_momjimi
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Momjimi fumo,
+        Icon            =    FUMOTH_fumo_momjimi,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_momjimi,
+        Tooltip         = Tooltip_item_fumoth20,
+    }
+
+	model  FUMOTH_momjimi
+	{
+		mesh = FUMOTH_momjimi_low,
+        	texture = FUMOTH_momjimi_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_kageru
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Kageru fumo,
+        Icon            =    FUMOTH_fumo_kageru,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_kageru,
+        Tooltip         = Tooltip_item_fumoth21,
+    }
+
+	model  FUMOTH_kageru
+	{
+		mesh = FUMOTH_kageru_low,
+        	texture = FUMOTH_kageru_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_tsukasa
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Tsukasa fumo,
+        Icon            =    FUMOTH_fumo_tsukasa,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_tsukasa,
+        Tooltip         = Tooltip_item_fumoth22,
+    }
+
+	model  FUMOTH_tsukasa
+	{
+		mesh = FUMOTH_tsukasa_low,
+        	texture = FUMOTH_tsukasa_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_flandere
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Flandere fumo,
+        Icon            =    FUMOTH_fumo_flandere,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_flandere,
+        Tooltip         = Tooltip_item_fumoth23,
+    }
+
+	model  FUMOTH_flandere
+	{
+		mesh = FUMOTH_flandere_low,
+        	texture = FUMOTH_flandere_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_remilia
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Remilia fumo,
+        Icon            =    FUMOTH_fumo_remilia,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_remilia,
+        Tooltip         = Tooltip_item_fumoth24,
+    }
+
+	model  FUMOTH_remilia
+	{
+		mesh = FUMOTH_remilia_low,
+        	texture = FUMOTH_remilia_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_koakuma
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Koakuma fumo,
+        Icon            =    FUMOTH_fumo_koakuma,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_koakuma,
+        Tooltip         = Tooltip_item_fumoth25,
+    }
+
+	model  FUMOTH_koakuma
+	{
+		mesh = FUMOTH_koakuma_low,
+        	texture = FUMOTH_koakuma_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_dayousei
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Dayousei fumo,
+        Icon            =    FUMOTH_fumo_dayousei,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_dayousei,
+        Tooltip         = Tooltip_item_fumoth26,
+    }
+
+	model  FUMOTH_dayousei
+	{
+		mesh = FUMOTH_dayousei_low,
+        	texture = FUMOTH_dayousei_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_meiling
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Meiling fumo,
+        Icon            =    FUMOTH_fumo_meiling,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_meiling,
+        Tooltip         = Tooltip_item_fumoth27,
+    }
+
+	model  FUMOTH_meiling
+	{
+		mesh = FUMOTH_meiling_low,
+        	texture = FUMOTH_meiling_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_kogasa
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Kogasa fumo,
+        Icon            =    FUMOTH_fumo_kogasa,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_kogasa,
+        Tooltip         = Tooltip_item_fumoth28,
+    }
+
+	model  FUMOTH_kogasa
+	{
+		mesh = FUMOTH_kogasa_low,
+        	texture = FUMOTH_kogasa_fumo,
+        	scale = 0.004,
+	}
+
+item FUMOTH_nitori
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Nitori fumo,
+        Icon            =    FUMOTH_fumo_nitori,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_nitori,
+        Tooltip         = Tooltip_item_fumoth29,
+    }
+
+	model  FUMOTH_nitori
+	{
+		mesh = FUMOTH_nitori_low,
+        	texture = FUMOTH_nitori_fumo,
+        	scale = 0.004,
+	}
+
+	item FUMOTH_nazrin
+
+    {
+        DisplayCategory = Entertainment,
+        Weight          =    0.2,
+        Type            =    Normal,
+        DisplayName        =    Nazrin fumo,
+        Icon            =    FUMOTH_fumo_nazrin,
+	Packaged = TRUE,
+        WorldStaticModel =    FUMOTH_nyn,
+        Tooltip         = Tooltip_item_fumoth30,
+    }
+
+	model  FUMOTH_nyn
+	{
+		mesh = FUMOTH_nazrin_low,
+        	texture = FUMOTH_nazrin_fumo,
+        	scale = 0.004,
+	}
+
+}
