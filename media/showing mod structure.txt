@@ -1,0 +1,39 @@
+  \Fumo_for_PZ
+  
+  mod.info
+  posters/preview.png
+  
+    \media
+
+      \lua
+        \client
+          forbidensquish
+          offering_to_fumos
+          squishing_fumos
+          tailor_xp
+        \serwer
+          \items
+          FUMOTH_book_dist
+          FUMOTH__dist
+        \shared
+          \Translate
+            \EN
+              \Tooltip_EN
+
+      \model_x
+        \WorldItems
+         Magazine_fumo.FBX || model of magazine
+       FUMOTH_(nameofcharacter)_low.fbx  || model of plushie
+
+      \scripts
+        fumo_actions
+        fumo_books
+        fumo_Items
+        fumo_recipes
+
+      \textures
+        \WorldItems
+          Nameofmagazine.png  || book texture
+        FUMOTH_nameofcharacter_fumo.png || plushie texture
+        Item_FUMOTH_fumo_nameofcharacter.png || plushie icon in game
+      
